@@ -1,0 +1,248 @@
+<http://w3id.org/systemlimesV1> <http://limes.sf.net/ontology/threshold> "0.7"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://w3id.org/systemlimesV1> <http://w3id.org/hobbit/vocab#instanceOf> <http://w3id.org/systemlimes> .
+<http://w3id.org/systemlimesV1> <http://w3id.org/hobbit/vocab#implementsAPI> <http://w3id.org/bench#lanceApi> .
+<http://w3id.org/systemlimesV1> <http://w3id.org/hobbit/vocab#imageName> "LimesImageName" .
+<http://w3id.org/systemlimesV1> <http://www.w3.org/2000/01/rdf-schema#comment> "Limes is an Instance Matching System..."@en .
+<http://w3id.org/systemlimesV1> <http://www.w3.org/2000/01/rdf-schema#label> "Limes"@en .
+<http://w3id.org/systemlimesV1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://w3id.org/hobbit/vocab#SystemInstance> .
+<http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology#nonTeaching> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.zf.org/z0148190/ontologies/2022/1/practice_school_ontology#Staff> .
+<http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology#nonTeaching> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://xmlns.com/foaf/0.1/firstName> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://xmlns.com/foaf/0.1/firstName> <http://www.w3.org/2000/01/rdf-schema#domain> <http://xmlns.com/foaf/0.1/Person> .
+<http://xmlns.com/foaf/0.1/firstName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://example.org/voc#Student> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://xmlns.com/foaf/0.1/Person> .
+<http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology#Physics> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology#Subject> .
+<http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology#Physics> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://example.org/voc#teaches> <http://www.w3.org/2000/01/rdf-schema#range> <http://example.org/voc#Course> .
+<http://example.org/voc#teaches> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/voc#Teacher> .
+<http://example.org/voc#teaches> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology#joinedON> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates Joining Date of the Student"@en .
+<http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology#joinedON> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology#joinedON> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology#Student> .
+<http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology#joinedON> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://example.org/voc#> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://example.org/voc#GraduateStudent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:A56abe3cdX3aX17ff0a26516X3aXX2dX7ffb .
+<http://example.org/voc#GraduateStudent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://example.org/voc#Student> .
+<http://example.org/voc#givesLab> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://example.org/voc#teaches> .
+<http://w3id.org/bench#Turtle> <http://www.w3.org/2000/01/rdf-schema#comment> "......."@en .
+<http://w3id.org/bench#Turtle> <http://www.w3.org/2000/01/rdf-schema#label> "Turtle dataset format"@en .
+<http://w3id.org/bench#Turtle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://w3id.org/bench#DataFormat> .
+<http://w3id.org/bench#precision> <http://w3id.org/hobbit/vocab#ranking> <http://w3id.org/hobbit/vocab#DescendingOrder> .
+<http://w3id.org/bench#precision> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
+<http://w3id.org/bench#precision> <http://www.w3.org/2000/01/rdf-schema#comment> "Precision = TP / (TP + FP)"@en .
+<http://w3id.org/bench#precision> <http://www.w3.org/2000/01/rdf-schema#label> "Precision"@en .
+<http://w3id.org/bench#precision> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://w3id.org/hobbit/vocab#KPI> .
+<http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology#Chris> <http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology#studentID> "S102"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology#Chris> <http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology#joinedON> "2022-02-01T10:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology#Chris> <http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology#credit> "1400"^^<http://www.w3.org/2001/XMLSchema#int> .
+<http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology#Chris> <http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology#learns> <http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology#Physics> .
+<http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology#Chris> <http://www.w3.org/2002/07/owl#sameAs> <http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology#Tony> .
+<http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology#Chris> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology#Student> .
+<http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology#Chris> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology#School> <http://www.w3.org/2000/01/rdf-schema#comment> "This is school class."@en .
+<http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology#School> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology#Nick> <http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology#teach> "science"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology#Nick> <http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology#joiningDate> "2020-01-01T08:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology#Nick> <http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology#teaches> <http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology#Tony> .
+<http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology#Nick> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology#Teacher> .
+<http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology#Nick> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://example.org/voc#isSupervisedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://w3id.org/hobbit/vocab#OAEILinkingChallenge> <http://w3id.org/hobbit/vocab#rankingKPIs> <http://w3id.org/hobbit/vocab#OAEILinkingChallenge_KPIs> .
+<http://w3id.org/hobbit/vocab#OAEILinkingChallenge> <http://w3id.org/hobbit/vocab#isTaskOf> <http://w3id.org/hobbit/vocab#OAEIChallenge> .
+<http://w3id.org/hobbit/vocab#OAEILinkingChallenge> <http://w3id.org/hobbit/vocab#involvesBenchmark> <http://w3id.org/bench#lance> .
+<http://w3id.org/hobbit/vocab#OAEILinkingChallenge> <http://w3id.org/hobbit/vocab#involvesSystemInstance> <http://w3id.org/systemlimesV1> .
+<http://w3id.org/hobbit/vocab#OAEILinkingChallenge> <http://w3id.org/hobbit/vocab#visible> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<http://w3id.org/hobbit/vocab#OAEILinkingChallenge> <http://www.w3.org/2000/01/rdf-schema#comment> "Linking Challenge for OAEI 2017"@en .
+<http://w3id.org/hobbit/vocab#OAEILinkingChallenge> <http://www.w3.org/2000/01/rdf-schema#label> "Linking"@en .
+<http://w3id.org/hobbit/vocab#OAEILinkingChallenge> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://w3id.org/hobbit/vocab#ChallengeTask> .
+<http://xmlns.com/foaf/0.1/lastName> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://xmlns.com/foaf/0.1/lastName> <http://www.w3.org/2000/01/rdf-schema#domain> <http://xmlns.com/foaf/0.1/Person> .
+<http://xmlns.com/foaf/0.1/lastName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://w3id.org/bench#RDF_XML> <http://www.w3.org/2000/01/rdf-schema#comment> "......."@en .
+<http://w3id.org/bench#RDF_XML> <http://www.w3.org/2000/01/rdf-schema#label> "RDF_XML dataset format"@en .
+<http://w3id.org/bench#RDF_XML> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://w3id.org/bench#DataFormat> .
+<http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology#Administrative> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology#nonTeaching> .
+<http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology#Administrative> <http://www.w3.org/2002/07/owl#equivalentClass> <http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology#Maintenence> .
+<http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology#Administrative> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://example.org/voc#PhDStudent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://example.org/voc#Researcher> .
+<http://example.org/voc#PhDStudent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://example.org/voc#GraduateStudent> .
+<http://w3id.org/hobbit/vocab#OAEILinkingChallenge_KPIs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_3> <http://w3id.org/bench#fmeasure> .
+<http://w3id.org/hobbit/vocab#OAEILinkingChallenge_KPIs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_2> <http://w3id.org/bench#precision> .
+<http://w3id.org/hobbit/vocab#OAEILinkingChallenge_KPIs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> <http://w3id.org/bench#recall> .
+<http://w3id.org/hobbit/vocab#OAEILinkingChallenge_KPIs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://w3id.org/hobbit/vocab#KPISeq> .
+<http://w3id.org/hobbit/vocab#OAEILinkingChallenge_KPIs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq> .
+<http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology#Supporting> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology#nonTeaching> .
+<http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology#Supporting> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology#Student> <http://www.w3.org/2000/01/rdf-schema#comment> "This is Student Class."@en .
+<http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology#Student> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.zf.org/z0148190/ontologies/2022/1/practice_school_ontology#Staff> .
+<http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology#Student> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://w3id.org/bench#fmeasure> <http://w3id.org/hobbit/vocab#ranking> <http://w3id.org/hobbit/vocab#DescendingOrder> .
+<http://w3id.org/bench#fmeasure> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
+<http://w3id.org/bench#fmeasure> <http://www.w3.org/2000/01/rdf-schema#comment> "F-measure is the harmonic mean of precision and recall."@en .
+<http://w3id.org/bench#fmeasure> <http://www.w3.org/2000/01/rdf-schema#label> "F-measure"@en .
+<http://w3id.org/bench#fmeasure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://w3id.org/hobbit/vocab#KPI> .
+<http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology#Science> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology#Subject> .
+<http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology#Science> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology#teaches> <http://www.w3.org/2000/01/rdf-schema#comment> "Teacher TEACHES Student"@en .
+<http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology#teaches> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology#Student> .
+<http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology#teaches> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology#Teacher> .
+<http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology#teaches> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://example.org/AnalysisResult1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "0.5"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://example.org/AnalysisResult1> <http://w3id.org/hobbit/vocab#involvesKPI> <http://w3id.org/bench#precision> .
+<http://example.org/AnalysisResult1> <http://w3id.org/hobbit/vocab#involvesParameter> <http://limes.sf.net/ontology/threshold> .
+<http://example.org/AnalysisResult1> <http://w3id.org/hobbit/vocab#algorithm> <http://w3id.org/hobbit/vocab#PearsonAlgorithm> .
+<http://example.org/AnalysisResult1> <http://purl.org/dc/terms/isPartOf> <http://example.org/AnalysisResultset1> .
+<http://example.org/AnalysisResult1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://w3id.org/hobbit/vocab#AnalysisResult> .
+<http://w3id.org/bench#recall> <http://w3id.org/hobbit/vocab#ranking> <http://w3id.org/hobbit/vocab#DescendingOrder> .
+<http://w3id.org/bench#recall> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
+<http://w3id.org/bench#recall> <http://www.w3.org/2000/01/rdf-schema#comment> "Recall = TP / (TP + FN)"@en .
+<http://w3id.org/bench#recall> <http://www.w3.org/2000/01/rdf-schema#label> "Recall"@en .
+<http://w3id.org/bench#recall> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://w3id.org/hobbit/vocab#KPI> .
+<http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology#credit> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#int> .
+<http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology#credit> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology#Student> .
+<http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology#credit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://example.org/voc#ExternalTeacher> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://example.org/voc#Teacher> .
+<http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology#employs> <http://www.w3.org/2000/01/rdf-schema#comment> "School EMPLOYS Staff"@en .
+<http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology#employs> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology#Teacher> .
+<http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology#employs> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology#School> .
+<http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology#employs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology#houseKeeping> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology#nonTeaching> .
+<http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology#houseKeeping> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://w3id.org/hobbit/vocab#OAEIChallenge> <http://w3id.org/hobbit/vocab#closed> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<http://w3id.org/hobbit/vocab#OAEIChallenge> <http://w3id.org/hobbit/vocab#organizer> "FORTH" .
+<http://w3id.org/hobbit/vocab#OAEIChallenge> <http://w3id.org/hobbit/vocab#publicationDate> "2017-02-10"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://w3id.org/hobbit/vocab#OAEIChallenge> <http://w3id.org/hobbit/vocab#executionDate> "2017-02-25"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://w3id.org/hobbit/vocab#OAEIChallenge> <http://www.w3.org/2000/01/rdf-schema#comment> "Challenge for OAEI 2017"@en .
+<http://w3id.org/hobbit/vocab#OAEIChallenge> <http://www.w3.org/2000/01/rdf-schema#label> "OAEI Challenge"@en .
+<http://w3id.org/hobbit/vocab#OAEIChallenge> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://w3id.org/hobbit/vocab#Challenge> .
+<http://example.org/Cluster-CLUSTERHASH> <http://w3id.org/hobbit/vocab#comprises> <http://example.org/Node-NODEHASH> .
+<http://example.org/Cluster-CLUSTERHASH> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://w3id.org/hobbit/vocab#Hardware> .
+<http://w3id.org/hobbit/experiments#LinkingExp10> <http://w3id.org/hobbit/vocab#involvesSystemInstance> <http://w3id.org/systemlimesV1> .
+<http://w3id.org/hobbit/experiments#LinkingExp10> <http://w3id.org/bench#lanceDataFormat> <http://w3id.org/bench#RDF_XML> .
+<http://w3id.org/hobbit/experiments#LinkingExp10> <http://w3id.org/hobbit/vocab#wasCarriedOutOn> <http://example.org/Cluster-CLUSTERHASH> .
+<http://w3id.org/hobbit/experiments#LinkingExp10> <http://w3id.org/hobbit/vocab#terminatedWithError> <http://w3id.org/hobbit/error#nullPointerException> .
+<http://w3id.org/hobbit/experiments#LinkingExp10> <http://w3id.org/bench#recall> "0.5"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://w3id.org/hobbit/experiments#LinkingExp10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://w3id.org/hobbit/vocab#Experiment> .
+<http://w3id.org/hobbit/experiments#LinkingExp10> <http://w3id.org/bench#precision> "0.5"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://w3id.org/hobbit/experiments#LinkingExp10> <http://w3id.org/bench#fmeasure> "0.5"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://w3id.org/hobbit/experiments#LinkingExp10> <http://w3id.org/hobbit/vocab#hobbitPlatformVersion> "V1.3" .
+<http://w3id.org/hobbit/experiments#LinkingExp10> <http://w3id.org/hobbit/vocab#isPartOf> <http://w3id.org/hobbit/vocab#OAEILinkingChallenge> .
+<http://w3id.org/hobbit/experiments#LinkingExp10> <http://w3id.org/hobbit/vocab#startTime> "2016-11-30T22:57:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://w3id.org/hobbit/experiments#LinkingExp10> <http://w3id.org/hobbit/vocab#involvesBenchmark> <http://w3id.org/bench#lance> .
+<http://w3id.org/hobbit/experiments#LinkingExp10> <http://w3id.org/hobbit/vocab#endTime> "2016-11-30T23:01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://example.org/voc#givesLecture> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://example.org/voc#teaches> .
+<http://example.org/voc#AssociateProfessor> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://example.org/voc#Professor> .
+<http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology#Maintenence> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology#nonTeaching> .
+<http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology#Maintenence> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://w3id.org/systemlimes> <http://w3id.org/hobbit/vocab#hasParameter> <http://limes.sf.net/ontology/threshold> .
+<http://w3id.org/systemlimes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://w3id.org/hobbit/vocab#System> .
+<http://example.org/voc#UndergraduateStudent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://example.org/voc#Student> .
+<http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology#admits> <http://www.w3.org/2000/01/rdf-schema#comment> "School ADMITS Students"@en .
+<http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology#admits> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology#Student> .
+<http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology#admits> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology#School> .
+<http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology#admits> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://example.org/voc#Course> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://example.org/voc#FullProfessor> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://example.org/voc#Professor> .
+<http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://w3id.org/hobbit/error#nullPointerException> <http://www.w3.org/2000/01/rdf-schema#comment> "A null pointer exception was thrown while running the experiment."@en .
+<http://w3id.org/hobbit/error#nullPointerException> <http://www.w3.org/2000/01/rdf-schema#label> "Null pointer exception"@en .
+<http://w3id.org/hobbit/error#nullPointerException> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://w3id.org/hobbit/vocab#Error> .
+<http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology#Government> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology#School> .
+<http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology#Government> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology#studentID> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates Student's ID"@en .
+<http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology#studentID> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology#studentID> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology#Student> .
+<http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology#studentID> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://example.org/voc#title> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://example.org/voc#title> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology#joiningDate> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology#joiningDate> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology#Teacher> .
+<http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology#joiningDate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.zf.org/z0148190/ontologies/2022/1/practice_school_ontology#Staff> <http://www.w3.org/2000/01/rdf-schema#comment> "This is Staff Class."@en .
+<http://www.zf.org/z0148190/ontologies/2022/1/practice_school_ontology#Staff> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology#juniorStudent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology#Student> .
+<http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology#juniorStudent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology#teach> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicactes which Subject the Teacher teaches." .
+<http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology#teach> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology#teach> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology#Teacher> .
+<http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology#teach> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://example.org/voc#isTaughtBy> <http://www.w3.org/2002/07/owl#inverseOf> <http://example.org/voc#teaches> .
+<http://w3id.org/bench#lanceApi> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://w3id.org/hobbit/vocab#API> .
+<http://example.org/voc#Teacher> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://xmlns.com/foaf/0.1/Person> .
+<http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology#National_School> <http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology#employs> <http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology#Nick> .
+<http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology#National_School> <http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology#admits> <http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology#Tony> .
+<http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology#National_School> <http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology#admits> <http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology#Chris> .
+<http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology#National_School> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology#School> .
+<http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology#National_School> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://example.org/AnalysisResultset1> <http://purl.org/dc/terms/created> "2018-11-30T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://example.org/AnalysisResultset1> <http://w3id.org/hobbit/vocab#involvesSystemInstance> <http://w3id.org/systemlimesV1> .
+<http://example.org/AnalysisResultset1> <http://w3id.org/hobbit/vocab#involvesBenchmark> <http://w3id.org/bench#lance> .
+<http://example.org/AnalysisResultset1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://w3id.org/hobbit/vocab#AnalysisResultset> .
+<http://www.zf.org/z0148190/ontologies/2022/1/practice_school_ontology#Private> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology#School> .
+<http://www.zf.org/z0148190/ontologies/2022/1/practice_school_ontology#Private> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://example.org/Node-NODEHASH> <http://usefulinc.com/ns/doap#os> "Linux1.11.1-11-generic#11-Ubuntu SMP Tue Jan 01 00:00:00 UTC 1970x86_64" .
+<http://example.org/Node-NODEHASH> <http://mex.aksw.org/mex-core#memory> "Memory: 2 GiB, Swap: 1 GiB" .
+<http://example.org/Node-NODEHASH> <http://mex.aksw.org/mex-core#cpu> "2-core (1 GHz, 1 GHz)" .
+<http://example.org/Node-NODEHASH> <http://www.w3.org/2000/01/rdf-schema#label> "hobbitworker1" .
+<http://example.org/Node-NODEHASH> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://mex.aksw.org/mex-core#HardwareConfiguration> .
+<http://w3id.org/bench#lance> <http://w3id.org/hobbit/vocab#measuresKPI> <http://w3id.org/bench#precision> .
+<http://w3id.org/bench#lance> <http://w3id.org/hobbit/vocab#imageName> "LanceDockerImage" .
+<http://w3id.org/bench#lance> <http://w3id.org/hobbit/vocab#hasAPI> <http://w3id.org/bench#lanceApi> .
+<http://w3id.org/bench#lance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://w3id.org/hobbit/vocab#Benchmark> .
+<http://w3id.org/bench#lance> <http://w3id.org/hobbit/vocab#hasParameter> <http://w3id.org/bench#lanceDataFormat> .
+<http://w3id.org/bench#lance> <http://www.w3.org/2000/01/rdf-schema#comment> "LANCE is a benchmark for the assessment of Instance Matching techniques and systems for Linked Data data that are accompanied by a schema."@en .
+<http://w3id.org/bench#lance> <http://w3id.org/hobbit/vocab#version> "V1.1" .
+<http://w3id.org/bench#lance> <http://www.w3.org/2000/01/rdf-schema#label> "Lance Benchmark"@en .
+<http://w3id.org/bench#lance> <http://w3id.org/hobbit/vocab#measuresKPI> <http://w3id.org/bench#recall> .
+<http://w3id.org/bench#lance> <http://w3id.org/hobbit/vocab#measuresKPI> <http://w3id.org/bench#fmeasure> .
+<http://w3id.org/bench#DataFormat> <http://www.w3.org/2000/01/rdf-schema#comment> "......."@en .
+<http://w3id.org/bench#DataFormat> <http://www.w3.org/2000/01/rdf-schema#label> "Lance dataset format"@en .
+<http://w3id.org/bench#DataFormat> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://example.org/voc#PostDoc> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://example.org/voc#Researcher> .
+<http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology#staffID> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates Staff's ID"@en .
+<http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology#staffID> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology#staffID> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.zf.org/z0148190/ontologies/2022/1/practice_school_ontology#Staff> .
+<http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology#staffID> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://xmlns.com/foaf/0.1/Person> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology#learns> <http://www.w3.org/2000/01/rdf-schema#comment> "Student LEARNS Subject"@en .
+<http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology#learns> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology#Subject> .
+<http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology#learns> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology#Student> .
+<http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology#learns> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology#Tony> <http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology#studentID> "S101"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology#Tony> <http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology#joinedON> "2022-01-01T09:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology#Tony> <http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology#credit> "1200"^^<http://www.w3.org/2001/XMLSchema#int> .
+<http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology#Tony> <http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology#sameAs> <http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology#Chris> .
+<http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology#Tony> <http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology#learns> <http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology#Science> .
+<http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology#Tony> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology#Student> .
+<http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology#Tony> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://example.org/voc#Professor> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://example.org/voc#Teacher> .
+<http://example.org/voc#Professor> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://example.org/voc#Researcher> .
+<http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology#Subject> <http://www.w3.org/2000/01/rdf-schema#comment> "This is Subject Class."@en .
+<http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology#Subject> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology#Thor> <http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology#admits> <http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology#Thor> .
+<http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology#Thor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology#Student> .
+<http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology#Thor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology#seniorStudent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology#Student> .
+<http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology#seniorStudent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://w3id.org/bench#N3> <http://www.w3.org/2000/01/rdf-schema#comment> "......."@en .
+<http://w3id.org/bench#N3> <http://www.w3.org/2000/01/rdf-schema#label> "N3 dataset format"@en .
+<http://w3id.org/bench#N3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://w3id.org/bench#DataFormat> .
+<http://limes.sf.net/ontology/threshold> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
+<http://limes.sf.net/ontology/threshold> <http://www.w3.org/2000/01/rdf-schema#comment> "Threshold parameter for Limes system."@en .
+<http://limes.sf.net/ontology/threshold> <http://www.w3.org/2000/01/rdf-schema#label> "Limes Parameter"@en .
+<http://limes.sf.net/ontology/threshold> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://w3id.org/hobbit/vocab#FeatureParameter> .
+<http://example.org/voc#AssistantProfessor> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://example.org/voc#Professor> .
+<http://example.org/voc#Researcher> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://xmlns.com/foaf/0.1/Person> .
+<http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology#sameAs> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology#Student> .
+<http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology#sameAs> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology#Student> .
+<http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology#sameAs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology#Teacher> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.zf.org/z0148190/ontologies/2022/1/practice_school_ontology#Staff> .
+<http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology#Teacher> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://w3id.org/bench#lanceDataFormat> <http://w3id.org/hobbit/vocab#hasDefaultValue> <http://w3id.org/bench#Turtle> .
+<http://w3id.org/bench#lanceDataFormat> <http://www.w3.org/2000/01/rdf-schema#range> <http://w3id.org/bench#DataFormat> .
+<http://w3id.org/bench#lanceDataFormat> <http://www.w3.org/2000/01/rdf-schema#comment> "......."@en .
+<http://w3id.org/bench#lanceDataFormat> <http://www.w3.org/2000/01/rdf-schema#label> "Lance dataset format"@en .
+<http://w3id.org/bench#lanceDataFormat> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://w3id.org/hobbit/vocab#ConfigurableParameter> .
+_:A56abe3cdX3aX17ff0a26516X3aXX2dX7ffb <http://www.w3.org/2002/07/owl#someValuesFrom> <http://example.org/voc#Professor> .
+_:A56abe3cdX3aX17ff0a26516X3aXX2dX7ffb <http://www.w3.org/2002/07/owl#onProperty> <http://example.org/voc#isSupervisedBy> .
+_:A56abe3cdX3aX17ff0a26516X3aXX2dX7ffb <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .

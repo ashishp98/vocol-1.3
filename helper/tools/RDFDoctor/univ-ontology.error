@@ -1,0 +1,1 @@
+[{"errorMessage":"line 10:2 no viable alternative at input ':a'\n: a owl:Ontology .\n\n  ^                ","errorNumber":1},{"errorMessage":"line 10:4 'a' cannot be used as a subject\n: a owl:Ontology .\n\n    ^              ","errorNumber":2},{"errorMessage":"line 10:17 Object of a triple is missing\n: a owl:Ontology .\n\n                 ^ ","errorNumber":3}]

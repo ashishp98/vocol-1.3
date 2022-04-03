@@ -1,0 +1,1893 @@
+{
+  "_comment" : "Created with OWL2VOWL (version 0.3.6), http://vowl.visualdataweb.org",
+  "header" : {
+    "languages" : [ "en", "undefined" ],
+    "baseIris" : [ "http://w3id.org/bench", "http://www.w3.org/1999/02/22-rdf-syntax-ns", "http://limes.sf.net/ontology", "http://w3id.org/hobbit/vocab", "http://www.w3.org/2000/01/rdf-schema", "http://www.zf.org/z0148190/ontologies/2022/1/practice_school_ontology", "http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology", "http://www.w3.org/2001/XMLSchema", "http://xmlns.com/foaf/0.1", "http://mex.aksw.org/mex-core", "http://example.org/voc" ],
+    "prefixList" : {
+      "owl" : "http://www.w3.org/2002/07/owl#",
+      "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+      "xsd" : "http://www.w3.org/2001/XMLSchema#",
+      "" : "http://www.semanticweb.org/owl/owlapi/turtle#",
+      "xml" : "http://www.w3.org/XML/1998/namespace",
+      "rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+    },
+    "iri" : "http://example.org/voc#"
+  },
+  "namespace" : [ ],
+  "class" : [ {
+    "id" : "3",
+    "type" : "owl:Class"
+  }, {
+    "id" : "12",
+    "type" : "owl:Class"
+  }, {
+    "id" : "13",
+    "type" : "owl:Class"
+  }, {
+    "id" : "1",
+    "type" : "owl:Class"
+  }, {
+    "id" : "15",
+    "type" : "owl:Class"
+  }, {
+    "id" : "22",
+    "type" : "owl:Class"
+  }, {
+    "id" : "33",
+    "type" : "owl:Class"
+  }, {
+    "id" : "38",
+    "type" : "owl:Class"
+  }, {
+    "id" : "39",
+    "type" : "owl:Class"
+  }, {
+    "id" : "30",
+    "type" : "owl:Class"
+  }, {
+    "id" : "43",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "49",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "52",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "10",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "51",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "4",
+    "type" : "owl:Class"
+  }, {
+    "id" : "56",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "54",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "57",
+    "type" : "owl:Class"
+  }, {
+    "id" : "58",
+    "type" : "owl:Class"
+  }, {
+    "id" : "59",
+    "type" : "owl:Class"
+  }, {
+    "id" : "63",
+    "type" : "owl:Class"
+  }, {
+    "id" : "64",
+    "type" : "owl:Class"
+  }, {
+    "id" : "18",
+    "type" : "owl:Class"
+  }, {
+    "id" : "70",
+    "type" : "owl:Class"
+  }, {
+    "id" : "71",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "73",
+    "type" : "owl:Class"
+  }, {
+    "id" : "31",
+    "type" : "owl:Class"
+  }, {
+    "id" : "76",
+    "type" : "owl:Class"
+  }, {
+    "id" : "2",
+    "type" : "owl:Class"
+  }, {
+    "id" : "84",
+    "type" : "owl:Class"
+  }, {
+    "id" : "29",
+    "type" : "owl:Class"
+  }, {
+    "id" : "81",
+    "type" : "owl:Class"
+  }, {
+    "id" : "34",
+    "type" : "owl:Class"
+  }, {
+    "id" : "93",
+    "type" : "owl:Class"
+  }, {
+    "id" : "6",
+    "type" : "owl:Class"
+  }, {
+    "id" : "17",
+    "type" : "owl:Class"
+  }, {
+    "id" : "95",
+    "type" : "owl:Class"
+  }, {
+    "id" : "75",
+    "type" : "owl:Class"
+  }, {
+    "id" : "66",
+    "type" : "owl:Class"
+  }, {
+    "id" : "97",
+    "type" : "owl:Class"
+  }, {
+    "id" : "11",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "45",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "91",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "69",
+    "type" : "owl:Class"
+  }, {
+    "id" : "72",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "47",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "62",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "99",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "8",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "100",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "87",
+    "type" : "owl:Class"
+  }, {
+    "id" : "27",
+    "type" : "owl:Class"
+  }, {
+    "id" : "106",
+    "type" : "owl:Class"
+  }, {
+    "id" : "107",
+    "type" : "owl:Class"
+  }, {
+    "id" : "108",
+    "type" : "owl:Class"
+  }, {
+    "id" : "23",
+    "type" : "owl:Class"
+  }, {
+    "id" : "5",
+    "type" : "owl:Class"
+  }, {
+    "id" : "25",
+    "type" : "owl:Class"
+  }, {
+    "id" : "20",
+    "type" : "owl:Class"
+  }, {
+    "id" : "109",
+    "type" : "owl:Class"
+  } ],
+  "classAttribute" : [ {
+    "iri" : "http://example.org/voc#Student",
+    "baseIri" : "http://example.org/voc",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Student"
+    },
+    "subClasses" : [ "5", "6" ],
+    "id" : "3",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "http://w3id.org/hobbit/vocab#Benchmark",
+    "baseIri" : "http://w3id.org/hobbit/vocab",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Benchmark"
+    },
+    "individuals" : [ {
+      "iri" : "http://w3id.org/bench#lance",
+      "baseIri" : "http://w3id.org/bench",
+      "annotations" : {
+        "imageName" : [ {
+          "identifier" : "imageName",
+          "language" : "undefined",
+          "value" : "LanceDockerImage",
+          "type" : "label"
+        } ],
+        "hasAPI" : [ {
+          "identifier" : "hasAPI",
+          "language" : "undefined",
+          "value" : "http://w3id.org/bench#lanceApi",
+          "type" : "iri"
+        } ],
+        "measuresKPI" : [ {
+          "identifier" : "measuresKPI",
+          "language" : "undefined",
+          "value" : "http://w3id.org/bench#recall",
+          "type" : "iri"
+        }, {
+          "identifier" : "measuresKPI",
+          "language" : "undefined",
+          "value" : "http://w3id.org/bench#precision",
+          "type" : "iri"
+        }, {
+          "identifier" : "measuresKPI",
+          "language" : "undefined",
+          "value" : "http://w3id.org/bench#fmeasure",
+          "type" : "iri"
+        } ],
+        "version" : [ {
+          "identifier" : "version",
+          "language" : "undefined",
+          "value" : "V1.1",
+          "type" : "label"
+        } ],
+        "hasParameter" : [ {
+          "identifier" : "hasParameter",
+          "language" : "undefined",
+          "value" : "http://w3id.org/bench#lanceDataFormat",
+          "type" : "iri"
+        } ]
+      },
+      "comment" : {
+        "en" : "LANCE is a benchmark for the assessment of Instance Matching techniques and systems for Linked Data data that are accompanied by a schema."
+      },
+      "labels" : {
+        "IRI-based" : "lance",
+        "en" : "Lance Benchmark"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "12"
+  }, {
+    "iri" : "http://w3id.org/hobbit/vocab#FeatureParameter",
+    "baseIri" : "http://w3id.org/hobbit/vocab",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "FeatureParameter"
+    },
+    "individuals" : [ {
+      "iri" : "http://limes.sf.net/ontology/threshold",
+      "baseIri" : "http://limes.sf.net/ontology",
+      "comment" : {
+        "en" : "Threshold parameter for Limes system."
+      },
+      "labels" : {
+        "IRI-based" : "threshold",
+        "en" : "Limes Parameter"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "13"
+  }, {
+    "iri" : "http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology#seniorStudent",
+    "baseIri" : "http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "seniorStudent"
+    },
+    "attributes" : [ "external" ],
+    "id" : "1",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology#juniorStudent",
+    "baseIri" : "http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "juniorStudent"
+    },
+    "attributes" : [ "external" ],
+    "id" : "15",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology#School",
+    "baseIri" : "http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "School"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology#National_School",
+      "baseIri" : "http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology",
+      "labels" : {
+        "IRI-based" : "National_School"
+      }
+    } ],
+    "subClasses" : [ "30", "31" ],
+    "comment" : {
+      "en" : "This is school class."
+    },
+    "attributes" : [ "external" ],
+    "id" : "22"
+  }, {
+    "iri" : "http://www.zf.org/z0148190/ontologies/2022/1/practice_school_ontology#Staff",
+    "baseIri" : "http://www.zf.org/z0148190/ontologies/2022/1/practice_school_ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Staff"
+    },
+    "subClasses" : [ "23", "34" ],
+    "comment" : {
+      "en" : "This is Staff Class."
+    },
+    "attributes" : [ "external" ],
+    "id" : "33"
+  }, {
+    "iri" : "http://w3id.org/hobbit/vocab#AnalysisResultset",
+    "baseIri" : "http://w3id.org/hobbit/vocab",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AnalysisResultset"
+    },
+    "individuals" : [ {
+      "iri" : "http://example.org/AnalysisResultset1",
+      "baseIri" : "http://example.org",
+      "annotations" : {
+        "created" : [ {
+          "identifier" : "created",
+          "language" : "undefined",
+          "value" : "2018-11-30T00:00:00Z",
+          "type" : "label"
+        } ],
+        "involvesSystemInstance" : [ {
+          "identifier" : "involvesSystemInstance",
+          "language" : "undefined",
+          "value" : "http://w3id.org/systemlimesV1",
+          "type" : "iri"
+        } ],
+        "involvesBenchmark" : [ {
+          "identifier" : "involvesBenchmark",
+          "language" : "undefined",
+          "value" : "http://w3id.org/bench#lance",
+          "type" : "iri"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "AnalysisResultset1"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "38"
+  }, {
+    "iri" : "http://w3id.org/hobbit/vocab#KPI",
+    "baseIri" : "http://w3id.org/hobbit/vocab",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "KPI"
+    },
+    "individuals" : [ {
+      "iri" : "http://w3id.org/bench#precision",
+      "baseIri" : "http://w3id.org/bench",
+      "annotations" : {
+        "ranking" : [ {
+          "identifier" : "ranking",
+          "language" : "undefined",
+          "value" : "http://w3id.org/hobbit/vocab#DescendingOrder",
+          "type" : "iri"
+        } ]
+      },
+      "comment" : {
+        "en" : "Precision = TP / (TP + FP)"
+      },
+      "labels" : {
+        "IRI-based" : "precision",
+        "en" : "Precision"
+      }
+    }, {
+      "iri" : "http://w3id.org/bench#recall",
+      "baseIri" : "http://w3id.org/bench",
+      "annotations" : {
+        "ranking" : [ {
+          "identifier" : "ranking",
+          "language" : "undefined",
+          "value" : "http://w3id.org/hobbit/vocab#DescendingOrder",
+          "type" : "iri"
+        } ]
+      },
+      "comment" : {
+        "en" : "Recall = TP / (TP + FN)"
+      },
+      "labels" : {
+        "IRI-based" : "recall",
+        "en" : "Recall"
+      }
+    }, {
+      "iri" : "http://w3id.org/bench#fmeasure",
+      "baseIri" : "http://w3id.org/bench",
+      "annotations" : {
+        "ranking" : [ {
+          "identifier" : "ranking",
+          "language" : "undefined",
+          "value" : "http://w3id.org/hobbit/vocab#DescendingOrder",
+          "type" : "iri"
+        } ]
+      },
+      "comment" : {
+        "en" : "F-measure is the harmonic mean of precision and recall."
+      },
+      "labels" : {
+        "IRI-based" : "fmeasure",
+        "en" : "F-measure"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "39"
+  }, {
+    "iri" : "http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology#Government",
+    "baseIri" : "http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Government"
+    },
+    "attributes" : [ "external" ],
+    "id" : "30",
+    "superClasses" : [ "22" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "43",
+    "label" : {
+      "IRI-based" : "dateTime"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "49",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "52",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "10",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "51",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://xmlns.com/foaf/0.1/Person",
+    "baseIri" : "http://xmlns.com/foaf/0.1",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Person"
+    },
+    "subClasses" : [ "3", "25", "20" ],
+    "attributes" : [ "external" ],
+    "id" : "4"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "56",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "54",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology#Subject",
+    "baseIri" : "http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Subject"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology#Physics",
+      "baseIri" : "http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology",
+      "labels" : {
+        "IRI-based" : "Physics"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology#Science",
+      "baseIri" : "http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology",
+      "labels" : {
+        "IRI-based" : "Science"
+      }
+    } ],
+    "comment" : {
+      "en" : "This is Subject Class."
+    },
+    "attributes" : [ "external" ],
+    "id" : "57"
+  }, {
+    "iri" : "http://w3id.org/hobbit/vocab#Experiment",
+    "baseIri" : "http://w3id.org/hobbit/vocab",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Experiment"
+    },
+    "individuals" : [ {
+      "iri" : "http://w3id.org/hobbit/experiments#LinkingExp10",
+      "baseIri" : "http://w3id.org/hobbit/experiments",
+      "annotations" : {
+        "wasCarriedOutOn" : [ {
+          "identifier" : "wasCarriedOutOn",
+          "language" : "undefined",
+          "value" : "http://example.org/Cluster-CLUSTERHASH",
+          "type" : "iri"
+        } ],
+        "terminatedWithError" : [ {
+          "identifier" : "terminatedWithError",
+          "language" : "undefined",
+          "value" : "http://w3id.org/hobbit/error#nullPointerException",
+          "type" : "iri"
+        } ],
+        "hobbitPlatformVersion" : [ {
+          "identifier" : "hobbitPlatformVersion",
+          "language" : "undefined",
+          "value" : "V1.3",
+          "type" : "label"
+        } ],
+        "involvesSystemInstance" : [ {
+          "identifier" : "involvesSystemInstance",
+          "language" : "undefined",
+          "value" : "http://w3id.org/systemlimesV1",
+          "type" : "iri"
+        } ],
+        "startTime" : [ {
+          "identifier" : "startTime",
+          "language" : "undefined",
+          "value" : "2016-11-30T22:57:00",
+          "type" : "label"
+        } ],
+        "involvesBenchmark" : [ {
+          "identifier" : "involvesBenchmark",
+          "language" : "undefined",
+          "value" : "http://w3id.org/bench#lance",
+          "type" : "iri"
+        } ],
+        "endTime" : [ {
+          "identifier" : "endTime",
+          "language" : "undefined",
+          "value" : "2016-11-30T23:01:00",
+          "type" : "label"
+        } ],
+        "isPartOf" : [ {
+          "identifier" : "isPartOf",
+          "language" : "undefined",
+          "value" : "http://w3id.org/hobbit/vocab#OAEILinkingChallenge",
+          "type" : "iri"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "LinkingExp10"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "58"
+  }, {
+    "iri" : "http://w3id.org/hobbit/vocab#Error",
+    "baseIri" : "http://w3id.org/hobbit/vocab",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Error"
+    },
+    "individuals" : [ {
+      "iri" : "http://w3id.org/hobbit/error#nullPointerException",
+      "baseIri" : "http://w3id.org/hobbit/error",
+      "comment" : {
+        "en" : "A null pointer exception was thrown while running the experiment."
+      },
+      "labels" : {
+        "IRI-based" : "nullPointerException",
+        "en" : "Null pointer exception"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "59"
+  }, {
+    "iri" : "http://example.org/voc#ExternalTeacher",
+    "baseIri" : "http://example.org/voc",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ExternalTeacher"
+    },
+    "id" : "63",
+    "superClasses" : [ "25" ]
+  }, {
+    "iri" : "http://w3id.org/hobbit/vocab#API",
+    "baseIri" : "http://w3id.org/hobbit/vocab",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "API"
+    },
+    "individuals" : [ {
+      "iri" : "http://w3id.org/bench#lanceApi",
+      "baseIri" : "http://w3id.org/bench",
+      "labels" : {
+        "IRI-based" : "lanceApi"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "64"
+  }, {
+    "iri" : "http://example.org/voc#Professor",
+    "baseIri" : "http://example.org/voc",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Professor"
+    },
+    "subClasses" : [ "29", "27", "17" ],
+    "id" : "18",
+    "superClasses" : [ "25", "20" ]
+  }, {
+    "iri" : "http://w3id.org/hobbit/vocab#KPISeq",
+    "baseIri" : "http://w3id.org/hobbit/vocab",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "KPISeq"
+    },
+    "individuals" : [ {
+      "iri" : "http://w3id.org/hobbit/vocab#OAEILinkingChallenge_KPIs",
+      "baseIri" : "http://w3id.org/hobbit/vocab",
+      "labels" : {
+        "IRI-based" : "OAEILinkingChallenge_KPIs"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "70"
+  }, {
+    "iri" : "http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology#Maintenence",
+    "equivalent" : [ "72" ],
+    "baseIri" : "http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Maintenence"
+    },
+    "attributes" : [ "equivalent", "external" ],
+    "id" : "71",
+    "superClasses" : [ "34" ]
+  }, {
+    "iri" : "http://w3id.org/hobbit/vocab#System",
+    "baseIri" : "http://w3id.org/hobbit/vocab",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "System"
+    },
+    "individuals" : [ {
+      "iri" : "http://w3id.org/systemlimes",
+      "baseIri" : "http://w3id.org",
+      "annotations" : {
+        "hasParameter" : [ {
+          "identifier" : "hasParameter",
+          "language" : "undefined",
+          "value" : "http://limes.sf.net/ontology/threshold",
+          "type" : "iri"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "systemlimes"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "73"
+  }, {
+    "iri" : "http://www.zf.org/z0148190/ontologies/2022/1/practice_school_ontology#Private",
+    "baseIri" : "http://www.zf.org/z0148190/ontologies/2022/1/practice_school_ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Private"
+    },
+    "attributes" : [ "external" ],
+    "id" : "31",
+    "superClasses" : [ "22" ]
+  }, {
+    "iri" : "http://w3id.org/hobbit/vocab#Hardware",
+    "baseIri" : "http://w3id.org/hobbit/vocab",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Hardware"
+    },
+    "individuals" : [ {
+      "iri" : "http://example.org/Cluster-CLUSTERHASH",
+      "baseIri" : "http://example.org",
+      "annotations" : {
+        "comprises" : [ {
+          "identifier" : "comprises",
+          "language" : "undefined",
+          "value" : "http://example.org/Node-NODEHASH",
+          "type" : "iri"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "Cluster-CLUSTERHASH"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "76"
+  }, {
+    "iri" : "http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology#Student",
+    "baseIri" : "http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Student"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology#Thor",
+      "baseIri" : "http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology",
+      "labels" : {
+        "IRI-based" : "Thor"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology#Tony",
+      "baseIri" : "http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology",
+      "labels" : {
+        "IRI-based" : "Tony"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology#Chris",
+      "baseIri" : "http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology",
+      "labels" : {
+        "IRI-based" : "Chris"
+      }
+    } ],
+    "subClasses" : [ "15", "1" ],
+    "comment" : {
+      "en" : "This is Student Class."
+    },
+    "attributes" : [ "external" ],
+    "id" : "2"
+  }, {
+    "iri" : "http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology#houseKeeping",
+    "baseIri" : "http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "houseKeeping"
+    },
+    "attributes" : [ "external" ],
+    "id" : "84",
+    "superClasses" : [ "34" ]
+  }, {
+    "iri" : "http://example.org/voc#AssociateProfessor",
+    "baseIri" : "http://example.org/voc",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AssociateProfessor"
+    },
+    "id" : "29",
+    "superClasses" : [ "18" ]
+  }, {
+    "iri" : "http://example.org/voc#PostDoc",
+    "baseIri" : "http://example.org/voc",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "PostDoc"
+    },
+    "id" : "81",
+    "superClasses" : [ "20" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology#nonTeaching",
+    "baseIri" : "http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "nonTeaching"
+    },
+    "subClasses" : [ "87", "84", "72", "71" ],
+    "attributes" : [ "external" ],
+    "id" : "34",
+    "superClasses" : [ "33" ]
+  }, {
+    "iri" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq",
+    "baseIri" : "http://www.w3.org/1999/02/22-rdf-syntax-ns",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Seq"
+    },
+    "individuals" : [ {
+      "iri" : "http://w3id.org/hobbit/vocab#OAEILinkingChallenge_KPIs",
+      "baseIri" : "http://w3id.org/hobbit/vocab",
+      "labels" : {
+        "IRI-based" : "OAEILinkingChallenge_KPIs"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "93"
+  }, {
+    "iri" : "http://example.org/voc#GraduateStudent",
+    "baseIri" : "http://example.org/voc",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "GraduateStudent"
+    },
+    "subClasses" : [ "69" ],
+    "id" : "6",
+    "superClasses" : [ "3" ]
+  }, {
+    "iri" : "http://example.org/voc#AssistantProfessor",
+    "baseIri" : "http://example.org/voc",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AssistantProfessor"
+    },
+    "id" : "17",
+    "superClasses" : [ "18" ]
+  }, {
+    "iri" : "http://w3id.org/hobbit/vocab#ChallengeTask",
+    "baseIri" : "http://w3id.org/hobbit/vocab",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ChallengeTask"
+    },
+    "individuals" : [ {
+      "iri" : "http://w3id.org/hobbit/vocab#OAEILinkingChallenge",
+      "baseIri" : "http://w3id.org/hobbit/vocab",
+      "annotations" : {
+        "visible" : [ {
+          "identifier" : "visible",
+          "language" : "undefined",
+          "value" : "false",
+          "type" : "label"
+        } ],
+        "rankingKPIs" : [ {
+          "identifier" : "rankingKPIs",
+          "language" : "undefined",
+          "value" : "http://w3id.org/hobbit/vocab#OAEILinkingChallenge_KPIs",
+          "type" : "iri"
+        } ],
+        "involvesSystemInstance" : [ {
+          "identifier" : "involvesSystemInstance",
+          "language" : "undefined",
+          "value" : "http://w3id.org/systemlimesV1",
+          "type" : "iri"
+        } ],
+        "involvesBenchmark" : [ {
+          "identifier" : "involvesBenchmark",
+          "language" : "undefined",
+          "value" : "http://w3id.org/bench#lance",
+          "type" : "iri"
+        } ],
+        "isTaskOf" : [ {
+          "identifier" : "isTaskOf",
+          "language" : "undefined",
+          "value" : "http://w3id.org/hobbit/vocab#OAEIChallenge",
+          "type" : "iri"
+        } ]
+      },
+      "comment" : {
+        "en" : "Linking Challenge for OAEI 2017"
+      },
+      "labels" : {
+        "IRI-based" : "OAEILinkingChallenge",
+        "en" : "Linking"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "95"
+  }, {
+    "iri" : "http://w3id.org/bench#DataFormat",
+    "baseIri" : "http://w3id.org/bench",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "DataFormat",
+      "en" : "Lance dataset format"
+    },
+    "individuals" : [ {
+      "iri" : "http://w3id.org/bench#RDF_XML",
+      "baseIri" : "http://w3id.org/bench",
+      "comment" : {
+        "en" : "......."
+      },
+      "labels" : {
+        "IRI-based" : "RDF_XML",
+        "en" : "RDF_XML dataset format"
+      }
+    }, {
+      "iri" : "http://w3id.org/bench#N3",
+      "baseIri" : "http://w3id.org/bench",
+      "comment" : {
+        "en" : "......."
+      },
+      "labels" : {
+        "IRI-based" : "N3",
+        "en" : "N3 dataset format"
+      }
+    }, {
+      "iri" : "http://w3id.org/bench#Turtle",
+      "baseIri" : "http://w3id.org/bench",
+      "comment" : {
+        "en" : "......."
+      },
+      "labels" : {
+        "IRI-based" : "Turtle",
+        "en" : "Turtle dataset format"
+      }
+    } ],
+    "comment" : {
+      "en" : "......."
+    },
+    "attributes" : [ "external" ],
+    "id" : "75"
+  }, {
+    "iri" : "http://example.org/voc#Course",
+    "baseIri" : "http://example.org/voc",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Course"
+    },
+    "id" : "66"
+  }, {
+    "iri" : "http://w3id.org/hobbit/vocab#AnalysisResult",
+    "baseIri" : "http://w3id.org/hobbit/vocab",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AnalysisResult"
+    },
+    "individuals" : [ {
+      "iri" : "http://example.org/AnalysisResult1",
+      "baseIri" : "http://example.org",
+      "annotations" : {
+        "involvesKPI" : [ {
+          "identifier" : "involvesKPI",
+          "language" : "undefined",
+          "value" : "http://w3id.org/bench#precision",
+          "type" : "iri"
+        } ],
+        "involvesParameter" : [ {
+          "identifier" : "involvesParameter",
+          "language" : "undefined",
+          "value" : "http://limes.sf.net/ontology/threshold",
+          "type" : "iri"
+        } ],
+        "isPartOf" : [ {
+          "identifier" : "isPartOf",
+          "language" : "undefined",
+          "value" : "http://example.org/AnalysisResultset1",
+          "type" : "iri"
+        } ],
+        "value" : [ {
+          "identifier" : "value",
+          "language" : "undefined",
+          "value" : "0.5",
+          "type" : "label"
+        } ],
+        "algorithm" : [ {
+          "identifier" : "algorithm",
+          "language" : "undefined",
+          "value" : "http://w3id.org/hobbit/vocab#PearsonAlgorithm",
+          "type" : "iri"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "AnalysisResult1"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "97"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "11",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "45",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "91",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://example.org/voc#PhDStudent",
+    "baseIri" : "http://example.org/voc",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "PhDStudent"
+    },
+    "id" : "69",
+    "superClasses" : [ "6", "20" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology#Administrative",
+    "equivalent" : [ "71" ],
+    "baseIri" : "http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Administrative"
+    },
+    "attributes" : [ "equivalent", "external" ],
+    "id" : "72",
+    "superClasses" : [ "34" ]
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "47",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "62",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "99",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "8",
+    "label" : {
+      "IRI-based" : "dateTime"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "100",
+    "label" : {
+      "IRI-based" : "int"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology#Supporting",
+    "baseIri" : "http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Supporting"
+    },
+    "attributes" : [ "external" ],
+    "id" : "87",
+    "superClasses" : [ "34" ]
+  }, {
+    "iri" : "http://example.org/voc#FullProfessor",
+    "baseIri" : "http://example.org/voc",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "FullProfessor"
+    },
+    "id" : "27",
+    "superClasses" : [ "18" ]
+  }, {
+    "iri" : "http://mex.aksw.org/mex-core#HardwareConfiguration",
+    "baseIri" : "http://mex.aksw.org/mex-core",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "HardwareConfiguration"
+    },
+    "individuals" : [ {
+      "iri" : "http://example.org/Node-NODEHASH",
+      "baseIri" : "http://example.org",
+      "annotations" : {
+        "memory" : [ {
+          "identifier" : "memory",
+          "language" : "undefined",
+          "value" : "Memory: 2 GiB, Swap: 1 GiB",
+          "type" : "label"
+        } ],
+        "os" : [ {
+          "identifier" : "os",
+          "language" : "undefined",
+          "value" : "Linux1.11.1-11-generic#11-Ubuntu SMP Tue Jan 01 00:00:00 UTC 1970x86_64",
+          "type" : "label"
+        } ],
+        "cpu" : [ {
+          "identifier" : "cpu",
+          "language" : "undefined",
+          "value" : "2-core (1 GHz, 1 GHz)",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "Node-NODEHASH",
+        "undefined" : "hobbitworker1"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "106"
+  }, {
+    "iri" : "http://w3id.org/hobbit/vocab#ConfigurableParameter",
+    "baseIri" : "http://w3id.org/hobbit/vocab",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ConfigurableParameter"
+    },
+    "individuals" : [ {
+      "iri" : "http://w3id.org/bench#lanceDataFormat",
+      "baseIri" : "http://w3id.org/bench",
+      "annotations" : {
+        "hasDefaultValue" : [ {
+          "identifier" : "hasDefaultValue",
+          "language" : "undefined",
+          "value" : "http://w3id.org/bench#Turtle",
+          "type" : "iri"
+        } ]
+      },
+      "comment" : {
+        "en" : "......."
+      },
+      "labels" : {
+        "IRI-based" : "lanceDataFormat",
+        "en" : "Lance dataset format"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "107"
+  }, {
+    "iri" : "http://w3id.org/hobbit/vocab#SystemInstance",
+    "baseIri" : "http://w3id.org/hobbit/vocab",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "SystemInstance"
+    },
+    "individuals" : [ {
+      "iri" : "http://w3id.org/systemlimesV1",
+      "baseIri" : "http://w3id.org",
+      "annotations" : {
+        "imageName" : [ {
+          "identifier" : "imageName",
+          "language" : "undefined",
+          "value" : "LimesImageName",
+          "type" : "label"
+        } ],
+        "implementsAPI" : [ {
+          "identifier" : "implementsAPI",
+          "language" : "undefined",
+          "value" : "http://w3id.org/bench#lanceApi",
+          "type" : "iri"
+        } ],
+        "instanceOf" : [ {
+          "identifier" : "instanceOf",
+          "language" : "undefined",
+          "value" : "http://w3id.org/systemlimes",
+          "type" : "iri"
+        } ]
+      },
+      "comment" : {
+        "en" : "Limes is an Instance Matching System..."
+      },
+      "labels" : {
+        "IRI-based" : "systemlimesV1",
+        "en" : "Limes"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "108"
+  }, {
+    "iri" : "http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology#Teacher",
+    "baseIri" : "http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Teacher"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology#Nick",
+      "baseIri" : "http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology",
+      "labels" : {
+        "IRI-based" : "Nick"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "23",
+    "superClasses" : [ "33" ]
+  }, {
+    "iri" : "http://example.org/voc#UndergraduateStudent",
+    "baseIri" : "http://example.org/voc",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "UndergraduateStudent"
+    },
+    "id" : "5",
+    "superClasses" : [ "3" ]
+  }, {
+    "iri" : "http://example.org/voc#Teacher",
+    "baseIri" : "http://example.org/voc",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Teacher"
+    },
+    "subClasses" : [ "18", "63" ],
+    "id" : "25",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "http://example.org/voc#Researcher",
+    "baseIri" : "http://example.org/voc",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Researcher"
+    },
+    "subClasses" : [ "81", "18", "69" ],
+    "id" : "20",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "http://w3id.org/hobbit/vocab#Challenge",
+    "baseIri" : "http://w3id.org/hobbit/vocab",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Challenge"
+    },
+    "individuals" : [ {
+      "iri" : "http://w3id.org/hobbit/vocab#OAEIChallenge",
+      "baseIri" : "http://w3id.org/hobbit/vocab",
+      "annotations" : {
+        "organizer" : [ {
+          "identifier" : "organizer",
+          "language" : "undefined",
+          "value" : "FORTH",
+          "type" : "label"
+        } ],
+        "executionDate" : [ {
+          "identifier" : "executionDate",
+          "language" : "undefined",
+          "value" : "2017-02-25",
+          "type" : "label"
+        } ],
+        "closed" : [ {
+          "identifier" : "closed",
+          "language" : "undefined",
+          "value" : "false",
+          "type" : "label"
+        } ],
+        "publicationDate" : [ {
+          "identifier" : "publicationDate",
+          "language" : "undefined",
+          "value" : "2017-02-10",
+          "type" : "label"
+        } ]
+      },
+      "comment" : {
+        "en" : "Challenge for OAEI 2017"
+      },
+      "labels" : {
+        "IRI-based" : "OAEIChallenge",
+        "en" : "OAEI Challenge"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "109"
+  } ],
+  "property" : [ {
+    "id" : "0",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "7",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "9",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "14",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "16",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "19",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "21",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "24",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "26",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "28",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "32",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "35",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "36",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "37",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "40",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "41",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "42",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "44",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "46",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "48",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "50",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "53",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "55",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "60",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "61",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "65",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "68",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "74",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "77",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "78",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "79",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "80",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "82",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "83",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "85",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "86",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "88",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "89",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "90",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "92",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "94",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "96",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "98",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "67",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "102",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "103",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "104",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "105",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "101",
+    "type" : "owl:objectProperty"
+  } ],
+  "propertyAttribute" : [ {
+    "range" : "2",
+    "domain" : "1",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "0"
+  }, {
+    "iri" : "http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology#joinedON",
+    "baseIri" : "http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology",
+    "range" : "8",
+    "label" : {
+      "IRI-based" : "joinedON"
+    },
+    "domain" : "2",
+    "comment" : {
+      "en" : "Indicates Joining Date of the Student"
+    },
+    "attributes" : [ "datatype", "external" ],
+    "id" : "7"
+  }, {
+    "iri" : "http://limes.sf.net/ontology/threshold",
+    "baseIri" : "http://limes.sf.net/ontology",
+    "range" : "11",
+    "label" : {
+      "IRI-based" : "threshold",
+      "en" : "Limes Parameter"
+    },
+    "domain" : "10",
+    "comment" : {
+      "en" : "Threshold parameter for Limes system."
+    },
+    "attributes" : [ "datatype", "external" ],
+    "id" : "9"
+  }, {
+    "range" : "2",
+    "domain" : "15",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "14"
+  }, {
+    "range" : "18",
+    "domain" : "17",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "16"
+  }, {
+    "range" : "4",
+    "domain" : "20",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "19"
+  }, {
+    "iri" : "http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology#employs",
+    "baseIri" : "http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology",
+    "range" : "23",
+    "label" : {
+      "IRI-based" : "employs"
+    },
+    "domain" : "22",
+    "comment" : {
+      "en" : "School EMPLOYS Staff"
+    },
+    "attributes" : [ "object", "external" ],
+    "id" : "21"
+  }, {
+    "range" : "4",
+    "domain" : "25",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "24"
+  }, {
+    "range" : "18",
+    "domain" : "27",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "26"
+  }, {
+    "range" : "18",
+    "domain" : "29",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "28"
+  }, {
+    "range" : "33",
+    "domain" : "23",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "32"
+  }, {
+    "range" : "22",
+    "domain" : "31",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "35"
+  }, {
+    "range" : "4",
+    "domain" : "3",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "36"
+  }, {
+    "range" : "33",
+    "domain" : "34",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "37"
+  }, {
+    "range" : "3",
+    "domain" : "6",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "40"
+  }, {
+    "range" : "3",
+    "domain" : "5",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "41"
+  }, {
+    "range" : "22",
+    "domain" : "30",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "42"
+  }, {
+    "iri" : "http://w3id.org/bench#fmeasure",
+    "baseIri" : "http://w3id.org/bench",
+    "range" : "45",
+    "annotations" : {
+      "ranking" : [ {
+        "identifier" : "ranking",
+        "language" : "undefined",
+        "value" : "http://w3id.org/hobbit/vocab#DescendingOrder",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "fmeasure",
+      "en" : "F-measure"
+    },
+    "domain" : "10",
+    "comment" : {
+      "en" : "F-measure is the harmonic mean of precision and recall."
+    },
+    "attributes" : [ "datatype", "external" ],
+    "id" : "44"
+  }, {
+    "iri" : "http://xmlns.com/foaf/0.1/lastName",
+    "baseIri" : "http://xmlns.com/foaf/0.1",
+    "range" : "47",
+    "label" : {
+      "IRI-based" : "lastName"
+    },
+    "domain" : "4",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "46"
+  }, {
+    "iri" : "http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology#sameAs",
+    "baseIri" : "http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology",
+    "range" : "2",
+    "label" : {
+      "IRI-based" : "sameAs"
+    },
+    "domain" : "2",
+    "attributes" : [ "object", "external" ],
+    "id" : "48"
+  }, {
+    "iri" : "http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology#studentID",
+    "baseIri" : "http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology",
+    "range" : "51",
+    "label" : {
+      "IRI-based" : "studentID"
+    },
+    "domain" : "2",
+    "comment" : {
+      "en" : "Indicates Student's ID"
+    },
+    "attributes" : [ "datatype", "external" ],
+    "id" : "50"
+  }, {
+    "iri" : "http://example.org/voc#title",
+    "baseIri" : "http://example.org/voc",
+    "range" : "54",
+    "label" : {
+      "IRI-based" : "title"
+    },
+    "domain" : "10",
+    "attributes" : [ "datatype" ],
+    "id" : "53"
+  }, {
+    "iri" : "http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology#admits",
+    "baseIri" : "http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology",
+    "range" : "2",
+    "label" : {
+      "IRI-based" : "admits"
+    },
+    "domain" : "22",
+    "comment" : {
+      "en" : "School ADMITS Students"
+    },
+    "attributes" : [ "object", "external" ],
+    "id" : "55"
+  }, {
+    "iri" : "http://w3id.org/bench#precision",
+    "baseIri" : "http://w3id.org/bench",
+    "range" : "49",
+    "annotations" : {
+      "ranking" : [ {
+        "identifier" : "ranking",
+        "language" : "undefined",
+        "value" : "http://w3id.org/hobbit/vocab#DescendingOrder",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "precision",
+      "en" : "Precision"
+    },
+    "domain" : "10",
+    "comment" : {
+      "en" : "Precision = TP / (TP + FP)"
+    },
+    "attributes" : [ "datatype", "external" ],
+    "id" : "60"
+  }, {
+    "iri" : "http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology#staffID",
+    "baseIri" : "http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology",
+    "range" : "62",
+    "label" : {
+      "IRI-based" : "staffID"
+    },
+    "domain" : "33",
+    "comment" : {
+      "en" : "Indicates Staff's ID"
+    },
+    "attributes" : [ "datatype", "external" ],
+    "id" : "61"
+  }, {
+    "iri" : "http://example.org/voc#isTaughtBy",
+    "inverse" : "67",
+    "baseIri" : "http://example.org/voc",
+    "range" : "25",
+    "label" : {
+      "IRI-based" : "isTaughtBy"
+    },
+    "domain" : "66",
+    "attributes" : [ "object" ],
+    "id" : "65"
+  }, {
+    "range" : "20",
+    "domain" : "69",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "68"
+  }, {
+    "iri" : "http://w3id.org/bench#lanceDataFormat",
+    "baseIri" : "http://w3id.org/bench",
+    "range" : "75",
+    "annotations" : {
+      "hasDefaultValue" : [ {
+        "identifier" : "hasDefaultValue",
+        "language" : "undefined",
+        "value" : "http://w3id.org/bench#Turtle",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "lanceDataFormat",
+      "en" : "Lance dataset format"
+    },
+    "domain" : "52",
+    "comment" : {
+      "en" : "......."
+    },
+    "attributes" : [ "object", "external" ],
+    "id" : "74"
+  }, {
+    "range" : "20",
+    "domain" : "18",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "77"
+  }, {
+    "range" : "25",
+    "domain" : "18",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "78"
+  }, {
+    "range" : "6",
+    "domain" : "69",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "79"
+  }, {
+    "range" : "20",
+    "domain" : "81",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "80"
+  }, {
+    "range" : "25",
+    "domain" : "63",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "82"
+  }, {
+    "range" : "34",
+    "domain" : "84",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "83"
+  }, {
+    "iri" : "http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology#learns",
+    "baseIri" : "http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology",
+    "range" : "57",
+    "label" : {
+      "IRI-based" : "learns"
+    },
+    "domain" : "2",
+    "comment" : {
+      "en" : "Student LEARNS Subject"
+    },
+    "attributes" : [ "object", "external" ],
+    "id" : "85"
+  }, {
+    "range" : "34",
+    "domain" : "87",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "86"
+  }, {
+    "range" : "34",
+    "domain" : "71",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "88"
+  }, {
+    "range" : "34",
+    "domain" : "72",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "89"
+  }, {
+    "iri" : "http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology#teach",
+    "baseIri" : "http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology",
+    "range" : "91",
+    "label" : {
+      "IRI-based" : "teach"
+    },
+    "domain" : "23",
+    "comment" : {
+      "undefined" : "Indicactes which Subject the Teacher teaches."
+    },
+    "attributes" : [ "datatype", "external" ],
+    "id" : "90"
+  }, {
+    "iri" : "http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology#joiningDate",
+    "baseIri" : "http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology",
+    "range" : "43",
+    "label" : {
+      "IRI-based" : "joiningDate"
+    },
+    "domain" : "23",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "92"
+  }, {
+    "iri" : "http://example.org/voc#givesLab",
+    "baseIri" : "http://example.org/voc",
+    "range" : "10",
+    "label" : {
+      "IRI-based" : "givesLab"
+    },
+    "superproperty" : [ "67" ],
+    "domain" : "10",
+    "attributes" : [ "object" ],
+    "id" : "94"
+  }, {
+    "iri" : "http://w3id.org/bench#recall",
+    "baseIri" : "http://w3id.org/bench",
+    "range" : "56",
+    "annotations" : {
+      "ranking" : [ {
+        "identifier" : "ranking",
+        "language" : "undefined",
+        "value" : "http://w3id.org/hobbit/vocab#DescendingOrder",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "recall",
+      "en" : "Recall"
+    },
+    "domain" : "10",
+    "comment" : {
+      "en" : "Recall = TP / (TP + FN)"
+    },
+    "attributes" : [ "datatype", "external" ],
+    "id" : "96"
+  }, {
+    "iri" : "http://xmlns.com/foaf/0.1/firstName",
+    "baseIri" : "http://xmlns.com/foaf/0.1",
+    "range" : "99",
+    "label" : {
+      "IRI-based" : "firstName"
+    },
+    "domain" : "4",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "98"
+  }, {
+    "iri" : "http://example.org/voc#teaches",
+    "baseIri" : "http://example.org/voc",
+    "range" : "66",
+    "label" : {
+      "IRI-based" : "teaches"
+    },
+    "domain" : "25",
+    "subproperty" : [ "94", "101" ],
+    "attributes" : [ "object" ],
+    "id" : "67"
+  }, {
+    "range" : "33",
+    "domain" : "2",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "102"
+  }, {
+    "iri" : "http://example.org/voc#isSupervisedBy",
+    "baseIri" : "http://example.org/voc",
+    "range" : "18",
+    "label" : {
+      "IRI-based" : "isSupervisedBy"
+    },
+    "domain" : "6",
+    "attributes" : [ "object", "someValues" ],
+    "id" : "103"
+  }, {
+    "iri" : "http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology#teaches",
+    "baseIri" : "http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology",
+    "range" : "2",
+    "label" : {
+      "IRI-based" : "teaches"
+    },
+    "domain" : "23",
+    "comment" : {
+      "en" : "Teacher TEACHES Student"
+    },
+    "attributes" : [ "object", "external" ],
+    "id" : "104"
+  }, {
+    "iri" : "http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology#credit",
+    "baseIri" : "http://www.semanticweb.org/z0148190/ontologies/2022/1/practice_school_ontology",
+    "range" : "100",
+    "label" : {
+      "IRI-based" : "credit"
+    },
+    "domain" : "2",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "105"
+  }, {
+    "iri" : "http://example.org/voc#givesLecture",
+    "baseIri" : "http://example.org/voc",
+    "range" : "10",
+    "label" : {
+      "IRI-based" : "givesLecture"
+    },
+    "superproperty" : [ "67" ],
+    "domain" : "10",
+    "attributes" : [ "object" ],
+    "id" : "101"
+  } ]
+}
