@@ -1,5 +1,5 @@
 {
-  "_comment" : "Created with OWL2VOWL (version 0.3.6), http://vowl.visualdataweb.org",
+  "_comment" : "Created with OWL2VOWL (version 0.3.7), http://vowl.visualdataweb.org",
   "header" : {
     "languages" : [ "de", "zh-hans", "en", "fr", "es", "undefined" ],
     "baseIris" : [ "http://www.w3.org/1999/02/22-rdf-syntax-ns", "http://ontovibe.visualdataweb.org", "http://www.w3.org/2002/07/owl", "http://www.w3.org/2000/01/rdf-schema", "http://ontovibe.visualdataweb.org/imported", "http://www.w3.org/2001/XMLSchema" ],
@@ -45,12 +45,12 @@
       "creator" : [ {
         "identifier" : "creator",
         "language" : "undefined",
-        "value" : "Steffen Lohmann",
+        "value" : "Florian Haag",
         "type" : "label"
       }, {
         "identifier" : "creator",
         "language" : "undefined",
-        "value" : "Florian Haag",
+        "value" : "Steffen Lohmann",
         "type" : "label"
       } ],
       "contributor" : [ {
@@ -368,7 +368,7 @@
     "label" : {
       "IRI-based" : "EquivalentDeprecatedClassInLargeGroup"
     },
-    "attributes" : [ "equivalent", "deprecated" ],
+    "attributes" : [ "deprecated", "equivalent" ],
     "id" : "33"
   }, {
     "iri" : "http://ontovibe.visualdataweb.org#DisjointUnionClass",
@@ -748,7 +748,7 @@
     "id" : "90"
   }, {
     "instances" : 0,
-    "attributes" : [ "anonymous", "complement" ],
+    "attributes" : [ "complement", "anonymous" ],
     "id" : "68",
     "complement" : [ "40" ]
   }, {
@@ -815,7 +815,7 @@
     "label" : {
       "IRI-based" : "EquivalentDeprecatedClass"
     },
-    "attributes" : [ "equivalent", "deprecated" ],
+    "attributes" : [ "deprecated", "equivalent" ],
     "id" : "59"
   }, {
     "iri" : "http://ontovibe.visualdataweb.org#Class1",
@@ -1020,7 +1020,7 @@
       "IRI-based" : "importedObjectPropertyWithDomain"
     },
     "domain" : "6",
-    "attributes" : [ "object", "external", "transitive" ],
+    "attributes" : [ "object", "transitive", "external" ],
     "id" : "5"
   }, {
     "iri" : "http://ontovibe.visualdataweb.org#dummyProperty",
@@ -1133,7 +1133,7 @@
       "IRI-based" : "functionalDatatypeProperty"
     },
     "domain" : "30",
-    "attributes" : [ "datatype", "functional" ],
+    "attributes" : [ "functional", "datatype" ],
     "id" : "45"
   }, {
     "iri" : "http://ontovibe.visualdataweb.org#anotherEquivalentDataProperty",
@@ -1204,7 +1204,7 @@
       "IRI-based" : "deprecatedImportedObjectProperty"
     },
     "domain" : "7",
-    "attributes" : [ "object", "deprecated", "external" ],
+    "attributes" : [ "deprecated", "object", "external" ],
     "id" : "65"
   }, {
     "iri" : "http://ontovibe.visualdataweb.org#standardTypeDatatypeProperty",
@@ -1336,7 +1336,7 @@
       "IRI-based" : "deprecatedDatatypeProperty"
     },
     "domain" : "1",
-    "attributes" : [ "datatype", "deprecated" ],
+    "attributes" : [ "deprecated", "datatype" ],
     "id" : "83"
   }, {
     "iri" : "http://ontovibe.visualdataweb.org#customTypeDatatypeProperty",
@@ -1357,7 +1357,7 @@
       "IRI-based" : "deprecatedImportedDatatypeProperty"
     },
     "domain" : "20",
-    "attributes" : [ "datatype", "deprecated", "external" ],
+    "attributes" : [ "deprecated", "datatype", "external" ],
     "id" : "86"
   }, {
     "iri" : "http://ontovibe.visualdataweb.org#anonymousUnionClassProperty",
@@ -1388,7 +1388,7 @@
     },
     "domain" : "1",
     "subproperty" : [ "95" ],
-    "attributes" : [ "object", "deprecated" ],
+    "attributes" : [ "deprecated", "object" ],
     "id" : "94"
   }, {
     "iri" : "http://ontovibe.visualdataweb.org#classToClassProperty",

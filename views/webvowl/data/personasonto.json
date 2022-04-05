@@ -1,5 +1,5 @@
 {
-  "_comment" : "Created with OWL2VOWL (version 0.3.6), http://vowl.visualdataweb.org",
+  "_comment" : "Created with OWL2VOWL (version 0.3.7), http://vowl.visualdataweb.org",
   "header" : {
     "languages" : [ "en", "undefined" ],
     "baseIris" : [ "http://www.w3.org/1999/02/22-rdf-syntax-ns", "http://blankdots.com/open/personasonto.owl", "http://www.w3.org/2000/01/rdf-schema", "http://www.w3.org/2001/XMLSchema" ],
@@ -790,7 +790,7 @@
   }, {
     "instances" : 0,
     "union" : [ "131", "151" ],
-    "attributes" : [ "anonymous", "union" ],
+    "attributes" : [ "union", "anonymous" ],
     "id" : "87"
   }, {
     "iri" : "http://blankdots.com/open/personasonto.owl#Place",
@@ -875,27 +875,27 @@
   }, {
     "instances" : 0,
     "union" : [ "160", "151" ],
-    "attributes" : [ "anonymous", "union" ],
+    "attributes" : [ "union", "anonymous" ],
     "id" : "159"
   }, {
     "instances" : 0,
     "union" : [ "24", "48" ],
-    "attributes" : [ "anonymous", "union" ],
+    "attributes" : [ "union", "anonymous" ],
     "id" : "163"
   }, {
     "instances" : 0,
     "union" : [ "56", "43", "48" ],
-    "attributes" : [ "anonymous", "union" ],
+    "attributes" : [ "union", "anonymous" ],
     "id" : "164"
   }, {
     "instances" : 0,
     "union" : [ "9", "24", "48" ],
-    "attributes" : [ "anonymous", "union" ],
+    "attributes" : [ "union", "anonymous" ],
     "id" : "133"
   }, {
     "instances" : 0,
     "union" : [ "72", "71" ],
-    "attributes" : [ "anonymous", "union" ],
+    "attributes" : [ "union", "anonymous" ],
     "id" : "166"
   }, {
     "iri" : "http://blankdots.com/open/personasonto.owl#BusinessGoals",
@@ -912,7 +912,7 @@
   }, {
     "instances" : 0,
     "union" : [ "56", "26" ],
-    "attributes" : [ "anonymous", "union" ],
+    "attributes" : [ "union", "anonymous" ],
     "id" : "167"
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#positiveInteger",
@@ -936,7 +936,7 @@
   }, {
     "instances" : 0,
     "union" : [ "89", "157" ],
-    "attributes" : [ "anonymous", "union" ],
+    "attributes" : [ "union", "anonymous" ],
     "id" : "171"
   }, {
     "iri" : "http://blankdots.com/open/personasonto.owl#Image",
@@ -2087,7 +2087,7 @@
       "IRI-based" : "minHeight"
     },
     "domain" : "21",
-    "attributes" : [ "functional", "datatype" ],
+    "attributes" : [ "datatype", "functional" ],
     "id" : "20"
   }, {
     "iri" : "http://blankdots.com/open/personasonto.owl#hasTopicOfInterest",
@@ -2263,7 +2263,7 @@
       "IRI-based" : "maxFeetSize"
     },
     "domain" : "21",
-    "attributes" : [ "functional", "datatype" ],
+    "attributes" : [ "datatype", "functional" ],
     "id" : "68"
   }, {
     "iri" : "http://blankdots.com/open/personasonto.owl#influences",
@@ -2300,7 +2300,7 @@
       "IRI-based" : "maxBustSize"
     },
     "domain" : "21",
-    "attributes" : [ "functional", "datatype" ],
+    "attributes" : [ "datatype", "functional" ],
     "id" : "75"
   }, {
     "range" : "21",
@@ -2406,7 +2406,7 @@
       "IRI-based" : "scenarioName"
     },
     "domain" : "48",
-    "attributes" : [ "functional", "datatype" ],
+    "attributes" : [ "datatype", "functional" ],
     "id" : "105"
   }, {
     "iri" : "http://blankdots.com/open/personasonto.owl#influencedBy",
@@ -2433,7 +2433,7 @@
       "IRI-based" : "maxWaistSize"
     },
     "domain" : "21",
-    "attributes" : [ "functional", "datatype" ],
+    "attributes" : [ "datatype", "functional" ],
     "id" : "108"
   }, {
     "iri" : "http://blankdots.com/open/personasonto.owl#uses",
@@ -2459,7 +2459,7 @@
       "IRI-based" : "minWeight"
     },
     "domain" : "21",
-    "attributes" : [ "functional", "datatype" ],
+    "attributes" : [ "datatype", "functional" ],
     "id" : "111"
   }, {
     "iri" : "http://blankdots.com/open/personasonto.owl#hasAffectiveState",
@@ -2485,7 +2485,7 @@
       "IRI-based" : "minBustSize"
     },
     "domain" : "21",
-    "attributes" : [ "functional", "datatype" ],
+    "attributes" : [ "datatype", "functional" ],
     "id" : "117"
   }, {
     "iri" : "http://blankdots.com/open/personasonto.owl#familyName",
@@ -2498,7 +2498,7 @@
       "IRI-based" : "familyName"
     },
     "domain" : "26",
-    "attributes" : [ "functional", "datatype" ],
+    "attributes" : [ "datatype", "functional" ],
     "id" : "119"
   }, {
     "iri" : "http://blankdots.com/open/personasonto.owl#hasInterest",
@@ -2561,7 +2561,7 @@
       "IRI-based" : "firstName"
     },
     "domain" : "26",
-    "attributes" : [ "functional", "datatype" ],
+    "attributes" : [ "datatype", "functional" ],
     "id" : "134"
   }, {
     "iri" : "http://blankdots.com/open/personasonto.owl#frustrationPoint",
@@ -2601,7 +2601,7 @@
     "comment" : {
       "undefined" : "It is different from technical level, because a person might be experienced in some product or application but does not have technical skills."
     },
-    "attributes" : [ "functional", "datatype" ],
+    "attributes" : [ "datatype", "functional" ],
     "id" : "155"
   }, {
     "iri" : "http://blankdots.com/open/personasonto.owl#maxHeight",
@@ -2614,7 +2614,7 @@
       "IRI-based" : "maxHeight"
     },
     "domain" : "21",
-    "attributes" : [ "functional", "datatype" ],
+    "attributes" : [ "datatype", "functional" ],
     "id" : "156"
   }, {
     "iri" : "http://blankdots.com/open/personasonto.owl#hasDisability",
@@ -2679,7 +2679,7 @@
       "IRI-based" : "influences"
     },
     "domain" : "71",
-    "attributes" : [ "object", "someValues" ],
+    "attributes" : [ "someValues", "object" ],
     "id" : "169"
   }, {
     "iri" : "http://blankdots.com/open/personasonto.owl#influencedBy",
@@ -2693,7 +2693,7 @@
       "IRI-based" : "influencedBy"
     },
     "domain" : "72",
-    "attributes" : [ "object", "someValues" ],
+    "attributes" : [ "someValues", "object" ],
     "id" : "170"
   }, {
     "range" : "29",
@@ -2711,7 +2711,7 @@
       "IRI-based" : "age"
     },
     "domain" : "26",
-    "attributes" : [ "functional", "datatype" ],
+    "attributes" : [ "datatype", "functional" ],
     "id" : "173"
   }, {
     "iri" : "http://blankdots.com/open/personasonto.owl#minFeetSize",
@@ -2724,7 +2724,7 @@
       "IRI-based" : "minFeetSize"
     },
     "domain" : "21",
-    "attributes" : [ "functional", "datatype" ],
+    "attributes" : [ "datatype", "functional" ],
     "id" : "174"
   }, {
     "range" : "29",
@@ -2842,7 +2842,7 @@
       "IRI-based" : "status"
     },
     "domain" : "72",
-    "attributes" : [ "functional", "datatype" ],
+    "attributes" : [ "datatype", "functional" ],
     "id" : "196"
   }, {
     "iri" : "http://blankdots.com/open/personasonto.owl#knows",
@@ -2886,7 +2886,7 @@
       "IRI-based" : "tagline"
     },
     "domain" : "21",
-    "attributes" : [ "functional", "datatype" ],
+    "attributes" : [ "datatype", "functional" ],
     "id" : "200"
   }, {
     "range" : "47",
@@ -3077,7 +3077,7 @@
       "IRI-based" : "gender"
     },
     "domain" : "26",
-    "attributes" : [ "functional", "datatype" ],
+    "attributes" : [ "datatype", "functional" ],
     "id" : "230"
   }, {
     "iri" : "http://blankdots.com/open/personasonto.owl#userRole",
@@ -3206,7 +3206,7 @@
       "IRI-based" : "details"
     },
     "domain" : "252",
-    "attributes" : [ "functional", "datatype" ],
+    "attributes" : [ "datatype", "functional" ],
     "id" : "251"
   }, {
     "range" : "24",
@@ -3310,7 +3310,7 @@
       "IRI-based" : "myerBriggs"
     },
     "domain" : "71",
-    "attributes" : [ "functional", "datatype" ],
+    "attributes" : [ "datatype", "functional" ],
     "id" : "268"
   }, {
     "range" : "94",
@@ -3417,7 +3417,7 @@
       "IRI-based" : "minWaistSize"
     },
     "domain" : "21",
-    "attributes" : [ "functional", "datatype" ],
+    "attributes" : [ "datatype", "functional" ],
     "id" : "283"
   }, {
     "iri" : "http://blankdots.com/open/personasonto.owl#hasTask",
@@ -3635,7 +3635,7 @@
       "IRI-based" : "maxWeight"
     },
     "domain" : "21",
-    "attributes" : [ "functional", "datatype" ],
+    "attributes" : [ "datatype", "functional" ],
     "id" : "317"
   }, {
     "range" : "141",
@@ -3704,7 +3704,7 @@
     "comment" : {
       "undefined" : "If a person has technical or programming skills it's relevant."
     },
-    "attributes" : [ "functional", "datatype" ],
+    "attributes" : [ "datatype", "functional" ],
     "id" : "327"
   }, {
     "range" : "141",

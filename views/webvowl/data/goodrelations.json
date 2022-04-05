@@ -1,5 +1,5 @@
 {
-  "_comment" : "Created with OWL2VOWL (version 0.3.6), http://vowl.visualdataweb.org",
+  "_comment" : "Created with OWL2VOWL (version 0.3.7), http://vowl.visualdataweb.org",
   "header" : {
     "languages" : [ "en", "undefined" ],
     "baseIris" : [ "http://www.w3.org/1999/02/22-rdf-syntax-ns", "http://schema.org", "http://purl.org/goodrelations/v1", "http://www.w3.org/2000/01/rdf-schema", "http://www.w3.org/2001/XMLSchema", "http://xmlns.com/foaf/0.1" ],
@@ -3703,7 +3703,7 @@
       "IRI-based" : "description"
     },
     "domain" : "9",
-    "attributes" : [ "datatype", "external" ],
+    "attributes" : [ "external", "datatype" ],
     "id" : "61"
   }, {
     "range" : "5",
@@ -3812,7 +3812,7 @@
     "comment" : {
       "en" : "This boolean attribute indicates whether a gr:UnitPriceSpecification is a list price (usually a vendor recommendation) or not. \"true\"  indicates it is a list price, \"false\" indicates it is not.\nDEPRECATED. Use the gr:priceType property instead."
     },
-    "attributes" : [ "datatype", "deprecated" ],
+    "attributes" : [ "deprecated", "datatype" ],
     "id" : "86"
   }, {
     "iri" : "http://xmlns.com/foaf/0.1/depiction",
@@ -4076,7 +4076,7 @@
       "IRI-based" : "name"
     },
     "domain" : "9",
-    "attributes" : [ "datatype", "external" ],
+    "attributes" : [ "external", "datatype" ],
     "id" : "140"
   }, {
     "iri" : "http://purl.org/goodrelations/v1#hasMaxCurrencyValue",
@@ -5568,7 +5568,7 @@
       "IRI-based" : "productID"
     },
     "domain" : "9",
-    "attributes" : [ "datatype", "external" ],
+    "attributes" : [ "external", "datatype" ],
     "id" : "334"
   }, {
     "iri" : "http://purl.org/goodrelations/v1#hasValue",

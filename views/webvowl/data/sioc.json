@@ -1,5 +1,5 @@
 {
-  "_comment" : "Created with OWL2VOWL (version 0.3.6), http://vowl.visualdataweb.org",
+  "_comment" : "Created with OWL2VOWL (version 0.3.7), http://vowl.visualdataweb.org",
   "header" : {
     "languages" : [ "en", "undefined" ],
     "baseIris" : [ "http://www.w3.org/1999/02/22-rdf-syntax-ns", "http://www.w3.org/2000/01/rdf-schema", "http://purl.org/dc/terms", "http://www.w3.org/2001/XMLSchema", "http://www.w3.org/2004/03/trix/rdfg-1", "http://xmlns.com/foaf/0.1", "http://rdfs.org/sioc/ns" ],
@@ -347,7 +347,7 @@
     "comment" : {
       "en" : "UserAccount is now preferred. This is a deprecated class for a User in an online community site."
     },
-    "attributes" : [ "deprecated", "equivalent" ],
+    "attributes" : [ "equivalent", "deprecated" ],
     "id" : "42",
     "superClasses" : [ "88" ]
   }, {
@@ -1228,7 +1228,7 @@
     "comment" : {
       "en" : "A resource that the subject is a part of."
     },
-    "attributes" : [ "deprecated", "object" ],
+    "attributes" : [ "object", "deprecated" ],
     "id" : "18"
   }, {
     "iri" : "http://rdfs.org/sioc/ns#reply_of",
@@ -1262,7 +1262,7 @@
       "IRI-based" : "date"
     },
     "domain" : "19",
-    "attributes" : [ "datatype", "external" ],
+    "attributes" : [ "external", "datatype" ],
     "id" : "24"
   }, {
     "iri" : "http://rdfs.org/sioc/ns#has_reply",
@@ -1296,7 +1296,7 @@
     },
     "domain" : "19",
     "subproperty" : [ "10", "29", "16" ],
-    "attributes" : [ "object", "external" ],
+    "attributes" : [ "external", "object" ],
     "id" : "14"
   }, {
     "iri" : "http://purl.org/dc/terms/subject",
@@ -1307,7 +1307,7 @@
     },
     "domain" : "19",
     "subproperty" : [ "31" ],
-    "attributes" : [ "object", "external" ],
+    "attributes" : [ "external", "object" ],
     "id" : "30"
   }, {
     "iri" : "http://rdfs.org/sioc/ns#has_group",
@@ -1327,7 +1327,7 @@
       "en" : "has group"
     },
     "domain" : "19",
-    "attributes" : [ "deprecated", "object" ],
+    "attributes" : [ "object", "deprecated" ],
     "id" : "35"
   }, {
     "iri" : "http://rdfs.org/sioc/ns#has_usergroup",
@@ -1955,7 +1955,7 @@
     },
     "domain" : "19",
     "subproperty" : [ "55" ],
-    "attributes" : [ "object", "external" ],
+    "attributes" : [ "external", "object" ],
     "id" : "57"
   }, {
     "iri" : "http://rdfs.org/sioc/ns#has_modifier",
@@ -2120,7 +2120,7 @@
       "IRI-based" : "account"
     },
     "domain" : "19",
-    "attributes" : [ "object", "external" ],
+    "attributes" : [ "external", "object" ],
     "id" : "112"
   }, {
     "iri" : "http://rdfs.org/sioc/ns#modifier_of",
@@ -2175,7 +2175,7 @@
       "IRI-based" : "title"
     },
     "domain" : "19",
-    "attributes" : [ "datatype", "external" ],
+    "attributes" : [ "external", "datatype" ],
     "id" : "115"
   }, {
     "iri" : "http://rdfs.org/sioc/ns#account_of",
@@ -2340,7 +2340,7 @@
     },
     "domain" : "19",
     "subproperty" : [ "124" ],
-    "attributes" : [ "object", "external" ],
+    "attributes" : [ "external", "object" ],
     "id" : "123"
   }, {
     "iri" : "http://rdfs.org/sioc/ns#reference",
@@ -2368,7 +2368,7 @@
     "comment" : {
       "en" : "Links either created explicitly or extracted implicitly on the HTML level from the Post."
     },
-    "attributes" : [ "deprecated", "object" ],
+    "attributes" : [ "object", "deprecated" ],
     "id" : "125"
   }, {
     "iri" : "http://rdfs.org/sioc/ns#last_name",
@@ -2698,7 +2698,7 @@
     },
     "domain" : "19",
     "subproperty" : [ "13", "17", "43" ],
-    "attributes" : [ "object", "external" ],
+    "attributes" : [ "external", "object" ],
     "id" : "143"
   }, {
     "range" : "88",
@@ -2718,7 +2718,7 @@
       "IRI-based" : "description"
     },
     "domain" : "19",
-    "attributes" : [ "datatype", "external" ],
+    "attributes" : [ "external", "datatype" ],
     "id" : "146"
   }, {
     "range" : "88",
@@ -3062,7 +3062,7 @@
     "comment" : {
       "en" : "An resource that is a part of this subject."
     },
-    "attributes" : [ "deprecated", "object" ],
+    "attributes" : [ "object", "deprecated" ],
     "id" : "20"
   }, {
     "iri" : "http://rdfs.org/sioc/ns#has_moderator",
@@ -3354,7 +3354,7 @@
       "en" : "group of"
     },
     "domain" : "19",
-    "attributes" : [ "deprecated", "object" ],
+    "attributes" : [ "object", "deprecated" ],
     "id" : "36"
   }, {
     "iri" : "http://rdfs.org/sioc/ns#topic",

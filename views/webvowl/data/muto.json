@@ -1,5 +1,5 @@
 {
-  "_comment" : "Created with OWL2VOWL (version 0.3.6), http://vowl.visualdataweb.org",
+  "_comment" : "Created with OWL2VOWL (version 0.3.7), http://vowl.visualdataweb.org",
   "header" : {
     "languages" : [ "en", "undefined" ],
     "baseIris" : [ "http://purl.org/muto/core", "http://www.w3.org/1999/02/22-rdf-syntax-ns", "http://www.w3.org/2000/01/rdf-schema", "http://purl.org/dc/terms", "http://www.w3.org/2001/XMLSchema", "http://rdfs.org/sioc/ns", "http://www.w3.org/2004/02/skos/core" ],
@@ -67,12 +67,12 @@
       "depiction" : [ {
         "identifier" : "depiction",
         "language" : "undefined",
-        "value" : "http://purl.org/muto/core/muto-UML.png",
+        "value" : "http://purl.org/muto/core/muto-compact.png",
         "type" : "label"
       }, {
         "identifier" : "depiction",
         "language" : "undefined",
-        "value" : "http://purl.org/muto/core/muto-compact.png",
+        "value" : "http://purl.org/muto/core/muto-UML.png",
         "type" : "label"
       } ],
       "homepage" : [ {
@@ -435,7 +435,7 @@
       "IRI-based" : "modified"
     },
     "domain" : "9",
-    "attributes" : [ "external", "datatype" ],
+    "attributes" : [ "datatype", "external" ],
     "id" : "8"
   }, {
     "iri" : "http://purl.org/muto/core#creatorOf",
@@ -527,7 +527,7 @@
     },
     "domain" : "9",
     "subproperty" : [ "13" ],
-    "attributes" : [ "external", "object" ],
+    "attributes" : [ "object", "external" ],
     "id" : "26"
   }, {
     "iri" : "http://purl.org/muto/core#tagOf",
@@ -691,7 +691,7 @@
     },
     "domain" : "9",
     "subproperty" : [ "11" ],
-    "attributes" : [ "external", "object" ],
+    "attributes" : [ "object", "external" ],
     "id" : "14"
   }, {
     "iri" : "http://purl.org/muto/core#tagMeaning",
@@ -770,7 +770,7 @@
     },
     "domain" : "9",
     "subproperty" : [ "0" ],
-    "attributes" : [ "external", "object" ],
+    "attributes" : [ "object", "external" ],
     "id" : "3"
   }, {
     "iri" : "http://purl.org/muto/core#nextTag",
@@ -830,7 +830,7 @@
       "IRI-based" : "created"
     },
     "domain" : "9",
-    "attributes" : [ "external", "datatype" ],
+    "attributes" : [ "datatype", "external" ],
     "id" : "36"
   }, {
     "range" : "5",
