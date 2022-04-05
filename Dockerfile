@@ -8,11 +8,9 @@ RUN apt-get update && \
     apt-get install -y  software-properties-common && \
     add-apt-repository ppa:webupd8team/java -y && \
     apt-get update && \
-    echo oracle-java7-installer shared/accepted-oracle-license-v1-1 select true | /usr/bin/debconf-set-selections && \
+    echo oracle-java8-installer shared/accepted-oracle-license-v1-1 select true | /usr/bin/debconf-set-selections && \
     apt-get install -y oracle-java8-installer && \
     apt-get clean
-
-
 
 # Install Nodejs , git
 RUN  apt-get update -yq \
@@ -23,16 +21,19 @@ RUN  apt-get update -yq \
 # Build application
 RUN mkdir /home/project
 WORKDIR /home/project
-RUN git clone  https://github.com/vocol/vocol.git \
+RUN https://github.com/ashishp98/vocol-1.3.git \
 &&  chmod u+x  .
+
 WORKDIR /home/project/vocol
+RUN ./helper/scripts/resetApp.sh
+RUN npm install -g turtle-validator
 RUN npm install
 
 EXPOSE 3000
 EXPOSE 3030
-
 ENV PORT=3000
-CMD [ "npm", "start","3000","3030"]
+
+ENTRYPOINT /home/project/vocol/helper/scripts/start-vocol.sh
 
 
 
