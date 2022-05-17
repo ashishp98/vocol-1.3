@@ -36,7 +36,7 @@ define(
 
       /** Initialise the qonsole component */
       initQonsole: function( datasetsConfig ) {
-        var qonfig = require( "app/qonsole-config" );
+        var qonfig = require( "app/qonsole/qonsole-config" );
         qonsole.init( qonfig );
 
         var dsName = fui.models.fusekiServer.selectedDatasetName();
