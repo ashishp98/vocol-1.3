@@ -171,7 +171,7 @@ fs.exists(path, function (exists) {
         // update queries in fuseki //
         /////////////////////////////
         // update fuseki queries file with some user-defined queries if there is any
-        var fusekiQueriesFilePath = 'webapp/js/app/qonsole-config.js';
+        var fusekiQueriesFilePath = 'webapp/js/app/qonsole/qonsole-config.js';
         // read contents of the file with the filePathgetTree
         var fusekiQuerieFileContent = fs.readFileSync(
           fusekiQueriesFilePath, 'utf8');
