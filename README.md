@@ -1,3 +1,6 @@
+VoCol application with integration of WebVOWL v1.1.7
+=====
+
 
 VoCol - Vocabulary collaboration and build environment.
 =====
